@@ -1,4 +1,6 @@
-# Network Science, Network Visualization, and Pyhton
+# Network Science, Network Visualization, and Pyhton -- SICSS Stanford 2025
+This repository contains materials for the guest lecture at [SICSS Stanford 2025](https://sicss.io/2025/stanford/people) on Network Science and Network Visualization using Python.
+
 
 ### 1. "I'm not that experienced with git and python."
 
@@ -8,9 +10,9 @@ Not quite sure what "clone the repo" means? Here's what to do:
 
 1. Open up a terminal window and navigate to the folder where you expect to do your coding (in this example "CODE") `cd ~/Desktop/CODE/`
 
-2. Clone the repository: `git clone https://github.com/jkbren/networks-tutorial-oxford`
+2. Clone the repository: `git clone git clone https://github.com/jkbren/sicss-networks-tutorial`
 
-3. Navigate into the repository: `cd networks-tutorial-oxford`
+3. Navigate into the repository: `cd sicss-networks-tutorial`
 
 4. Install the software: `pip install -r requirements.txt`
 
@@ -21,15 +23,17 @@ Not quite sure what "clone the repo" means? Here's what to do:
 To install the software for this tutorial, clone the repo and run the following:
 
 ```
-cd networks-tutorial-oxford
+git clone https://github.com/jkbren/sicss-networks-tutorial
+cd sicss-networks-tutorial
 pip install -r requirements.txt
 ```
 
-### 3. "I don't want to live-code this tutorial."
 
-Follow along in the jupyter notebook [here](https://nbviewer.jupyter.org/github/jkbren/networks-tutorial-oxford/blob/master/tutorial-complete.ipynb?flush_cache=true)!
+### Contents
+- datasets/ — Example networks and geospatial data used in the exercises.
+- figs/ — Example visualizations generated during the tutorial.
+- color-explorer.ipynb — A short notebook on color mapping in matplotlib.
+- tip-plotlib.ipynb — Quick plotting tips.
+- tutorial-complete.ipynb — The complete tutorial notebook.
 
-
-## Contributors
-
-- Brennan Klein [@jkbren](https://github.com/jkbren)
+This tutorial is based loosely off of the Network Science Data & Models course and textbook https://network-science-data-and-models.github.io/book-core/intro.html
